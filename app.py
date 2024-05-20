@@ -2,6 +2,11 @@ import streamlit as st
 import pandas as pd
 import os
 
+
+# Kaggle API key setup
+os.environ['KAGGLE_USERNAME'] = 'dechrigi'
+os.environ['KAGGLE_KEY'] = '02e3713ee2af208da532037770a597d5'
+
 from kaggle.api.kaggle_api_extended import KaggleApi
 
 # Kaggle API initialisieren
